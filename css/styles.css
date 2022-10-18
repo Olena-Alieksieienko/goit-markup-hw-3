@@ -164,6 +164,16 @@ img {
 /* ------------ Герой ------------  */
 
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   background-color: var(--hero-bg-color);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -202,17 +212,6 @@ img {
 .hero-button:focus {
   cursor: pointer;
   background-color: var(--hover-btn-color);
-}
-
-.overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url(../images/hero-img.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 /* ------------ Переваги ------------  */
